@@ -1,0 +1,194 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <!-- Agregar enlaces a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace al archivo CSS personalizado -->
+    <link rel="stylesheet" href="/css/site.css">
+    <link href="/imagenes/ima.png" rel="icon">
+</head>
+
+<body>
+
+    <!-- Navbar de Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <img src="/imagenes/ima.png" class="inicio-icono" alt="Logo de la empresa">
+            <span class="logo-text">MotoRiders</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" id="motosBtn" class="btn-link">Motos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" id="cuadraciclosBtn" class="btn-link">Cuadraciclos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" id="motosElectricasBtn" class="btn-link">Motos Eléctricas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" id="repuestosBtn" class="btn-link">Repuestos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" id="tallerBtn" class="btn-link">Taller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" id="contactoBtn" class="btn-link">Contacto</a>
+                    </li>
+                </ul>
+                <a href="#" id="cotizarBtn" class="btn btn-primary">Cotizar</a>
+                
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container text-center mt-4 mx-auto">
+        <!-- Carrusel de Bootstrap -->
+        <div id="miCarrusel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/imagenes/imgc.png" class="d-block w-50 mx-auto" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagenes/imagc1.png" class="d-block w-50 mx-auto" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagenes/imagc2.png" class="d-block w-50 mx-auto" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagenes/imagc3.png" class="d-block w-50 mx-auto" alt="Imagen 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagenes/imagc4.png" class="d-block w-50 mx-auto" alt="Imagen 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagenes/imagc5.png" class="d-block w-50 mx-auto" alt="Imagen 6">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+
+    <!-- Sección de características -->
+    <section id="features" class="features">
+        <div class="container">
+
+
+            <div class="section-title" data-aos="fade-up">
+                <div class="card" style="background-image: url(/imagenes/imainfo.png);">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="">MotoRiders</a></h5>
+                        <p class="card-text">Bienvenidos a MotoRidersCR, donde la pasión por las motocicletas se encuentra 
+                            con un compromiso inquebrantable con la excelencia y la innovación. En MotoRidersCR, no solo 
+                            ofrecemos motocicletas, sino una experiencia completa y única que va más allá de la carretera.
+                            A continuación, presentamos los valores, misión, visión y características que definen nuestra 
+                            empresa y nos guían en cada paso de nuestro viaje. Descubre cómo en MotoRidersCR, la libertad 
+                            de la carretera se combina con un servicio excepcional y una comunidad apasionada. 
+                            ¡Bienvenidos a una experiencia inigualable!.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+                    <div class="card" style="background-image: url(/imagenes/imgmis.png);">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Misión</a></h5>
+                            <p class="card-text">En MotoRidersCR, buscamos ser la empresa líder en alquiler y venta de motocicletas 
+                                en Costa Rica, proporcionando experiencias únicas y satisfaciendo las necesidades de nuestros clientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up">
+                    <div class="card" style="background-image: url(/imagenes/imgvis.png);">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Visión</a></h5>
+                            <p class="card-text">Nuestra visión es ser reconocidos como la referencia en el mundo de las 
+                                motocicletas en Costa Rica, destacándonos por una flota diversa, opciones de financiamiento
+                                flexibles y un compromiso inquebrantable con la sostenibilidad.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card" style="background-image: url(/imagenes/imgval.png);">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Valores</a></h5>
+                            <p class="card-text">Pasión - Compromiso - Innovación - Respeto - Responsabilidad - Sostenibilidad - Comunidad - Excelencia - Integridad - Lealtad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card" style="background-image: url(/imagenes/imgcar.png);">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Características</a></h5>
+                            <p class="card-text">Diversidad de Flota - Servicio al Cliente Excepcional - Compromiso con la Sostenibilidad - Flexibilidad Financiera - Colaboración con Empresas de Seguros - Compromiso con la Comunidad - Cultura de Mejora Continua</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Features Section -->
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="color: white;">
+                    <h5>Contacto</h5>
+                    <p>Dirección: San Jose, San Pedro, frente Plaza San Pedro</p>
+                    <p>Teléfono: (506) 2211 8000</p>
+                    <p>Email: MridersCr@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <a href="#" id="facebookBtn" class="btn btn-link">Facebook</a>
+                    <a href="#" id="twitterBtn" class="btn btn-link">Twitter</a>
+                    <a href="#" id="instagramBtn" class="btn btn-link">Instagram</a>
+                </div>
+                <div class="col-md-4" style="color: white;">
+                    <p>Mantente actualizado de nuestros eventos y promociones. Suscríbete!.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Correo electrónico">
+                        </div>
+                        <button type="submit" class="btn btn-info btn-sm">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Agregar enlaces a Bootstrap JS y Popper.js (requeridos para algunos componentes de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Enlace al archivo JavaScript personalizado -->
+    <script src="/js/site.js"></script>
+
+</body>
+
+</html>

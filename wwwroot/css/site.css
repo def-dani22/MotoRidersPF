@@ -1,0 +1,238 @@
+.navbar {
+    background-color: darkblue; /* Cambiar color de fondo */
+}
+
+.container¨
+
+    .navbar .logo-text {
+        color: #ff0000; /* Rojo para coincidir con el texto del logo */
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .navbar .nav-item .btn-link {
+        color: #007bff; /* Azul para los enlaces */
+        font-size: 1.1rem;
+        transition: color 0.3s;
+
+    }
+
+        .navbar .nav-item .btn-link:hover {
+            color: #0056b3;
+        }
+
+    .navbar .btn-primary {
+        background-color: #007bff;
+        border: none;
+        font-size: 1.1rem;
+    }
+
+        .navbar .btn-primary:hover {
+            background-color: #0056b3;
+
+        }
+
+    /* Estilos para los elementos de la barra de navegación */
+    .navbar-nav .nav-item {
+        margin-right: 30px; /* Espaciado entre elementos de navegación */
+    }
+
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #007bff; /* Azul para el icono de hamburguesa */
+    background-color: red; /* Cambiar color de fondo */
+}
+
+
+
+
+/* Estilos para el logo en la barra de navegación */
+.inicio-icono {
+    width: 50px; /* Ancho del logo */
+    height: auto; /* Mantener la proporción original de la imagen */
+    margin-right: 10px; /* Espaciado a la derecha del logo */
+}
+
+
+#motosElectricasBtn {
+    color: #2bbd4b; /* Color de fondo de la barra de navegación */
+}
+
+
+
+.logo-text {
+    font-size: 36px; /* Tamaño de la fuente */
+    color: #ff0000; /* Color rojo */
+    font-family: 'Arial', sans-serif; /* Tipo de fuente (puedes cambiarlo según tus preferencias) */
+    font-weight: bold; /* Peso de la fuente (negrita) */
+
+    letter-spacing: 2px; /* Espaciado entre letras */
+    /* Agregar más estilos según sea necesario */
+}
+
+
+
+/* Estilos para el botón de cotizar */
+#cotizarBtn {
+    margin-left: 20px; /* Espaciado a la izquierda del botón de cotizar */
+}
+
+    /* Estilos para el botón de cotizar al pasar el mouse */
+    #cotizarBtn:hover {
+        background-color: #004080; /* Color de fondo al pasar el mouse */
+        border-color: #004080; /* Color del borde al pasar el mouse */
+    }
+
+
+
+/* Estilos para el footer */
+footer {
+    background-color: darkblue; /* Color de fondo del footer */
+    padding: 50px 0; /* Espaciado interno del footer */
+    color: #333; /* Color del texto en el footer */
+}
+
+    /* Estilos para las columnas dentro del footer */
+    footer .col-md-4 {
+        margin-bottom: 30px; /* Espaciado entre las columnas */
+    }
+
+    /* Estilos para los títulos en el footer */
+    footer h5 {
+        color: white; /* Color del título en el footer */
+    }
+
+    /* Estilos para los enlaces sociales en el footer */
+    footer a.btn-link {
+        color: white; /* Color del enlace */
+    }
+
+        footer a.btn-link:hover {
+            text-decoration: underline; /* Subrayado al pasar el mouse sobre el enlace */
+        }
+
+    /* Estilos para el formulario de suscripción en el footer */
+    footer form {
+        margin-top: 20px; /* Espaciado superior del formulario */
+    }
+
+    footer input.form-control {
+        margin-bottom: 10px; /* Espaciado inferior del campo de entrada de correo electrónico */
+    }
+
+    footer button.btn-info {
+        background-color: blue; /* Color de fondo del botón de suscripción */
+        border-color: white; /* Color del borde del botón de suscripción */
+    }
+
+        footer button.btn-info:hover {
+            background-color: darkblue; /* Color de fondo al pasar el mouse sobre el botón de suscripción */
+            border-color: white; /* Color del borde al pasar el mouse sobre el botón de suscripción */
+        }
+
+
+
+/* Agrega estilos personalizados aquí */
+
+/* Estilo para el contenedor del carrusel */
+.container {
+    margin-top: 20px;
+}
+
+/* Estilo para las imágenes dentro del carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para los controles del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Estilo para el texto descriptivo en las imágenes del carrusel (opcional) */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .card {
+    border: 0;
+    padding: 160px 20px 20px 20px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.features .card-body {
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    transition: ease-in-out 0.4s;
+    border-radius: 5px;
+}
+
+.features .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+    .features .card-title a {
+        color: #3c4133;
+    }
+
+.features .card-text {
+    color: #5e5e5e;
+}
+
+.features .read-more a {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.4s;
+}
+
+    .features .read-more a:hover {
+        text-decoration: underline;
+    }
+
+.features .card:hover .card-body {
+    background: #c04545;
+}
+
+.features .card:hover .read-more a,
+.features .card:hover .card-title,
+.features .card:hover .card-title a,
+.features .card:hover .card-text {
+    color: #fff;
+}
+
+
+
+
+
